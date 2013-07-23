@@ -7,6 +7,7 @@
 sudo apt-get install -y git
 sudo apt-get install -y curl
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+sudo apt-get install -y nodejs
 
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh
