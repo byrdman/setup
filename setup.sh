@@ -7,7 +7,7 @@
 sudo apt-get install -y git
 sudo apt-get install -y curl
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
-sudo apt-get install -y nodejs
+#sudo apt-get install -y nodejs
 
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh
@@ -17,6 +17,7 @@ nvm use v0.10.12
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
 npm install -g jshint
+npm install
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
